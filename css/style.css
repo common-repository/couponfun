@@ -1,0 +1,156 @@
+.cf-items {
+	margin: 100px 0 50px;
+}
+.cf-items .cf-item {
+	margin-bottom: 25px;
+}
+
+.cf-items .cf-item img {
+	width: 100%;
+}
+
+.cf-container {
+	font-family: 'Roboto', sans-serif;
+}
+
+.cf-img {
+	position: relative;
+	z-index: 1;
+}
+
+.cf-img .cf-star {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	font-size: 12px;
+	color: #f2db01;
+}
+
+.cf-img .cf-star svg.svg-inline--fa.fa-star.fa-w-18 {
+	margin-left: 2px;
+}
+
+.cf-offer {
+	position: absolute;
+	top: 10px;
+	left: 25px;
+	z-index: 2;
+	padding: 3px 10px;
+	color: #fff;
+	font-weight: 500;
+	background: #fa3838;
+	font-size: 14px;
+}
+
+.cf-body {
+	padding: 10px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-top: none;
+}
+
+.cf-body h3 {
+	font-size: 14px;
+	font-weight: 500;
+	color: #48515a;
+}
+
+.cf-offer-info {
+	margin: 5px 0;
+	color: #97a4ad;
+}
+
+.cf-offer-info span {
+	font-size: 12px;
+	margin-left: 5px;
+}
+.cf-popup-item {
+	display: none;
+}
+
+.cf-btn {
+	margin: 10px 0;
+}
+
+.cf-btn .cf-button,
+.cf-btn .cf-button-deal {
+	background: #2ed87b;
+	padding: 5px 0;
+	text-align: center;
+	border-radius: 2px;
+	cursor: pointer;
+}
+
+.cf-btn .cf-button h3,
+.cf-btn .cf-button-deal h3 {
+	color: #fff;
+	font-weight: 300;
+	font-size: 14px;
+	margin: 0;
+}
+
+/*.cf-btn .cf-button {
+	display: none; 
+}*/
+
+.cf-btn .cf-coupon {
+	display: none; 
+}
+
+.cf-coupon {
+	padding: 5px 0;
+	text-align: center;
+	border-radius: 2px;
+	background: repeating-linear-gradient(45deg, transparent, transparent 10px, #eee 10px, #eee 20px), linear-gradient(to bottom, #c2ead4, #c2ead4);
+}
+
+.cf-btn .cf-coupon h3 {
+	color: #F50;
+	font-weight: 500;
+	font-size: 14px;
+	margin: 0;
+}
+
+.cf-pagination {
+	text-align: center;
+	margin: 30px 0;
+}
+
+.cf-pagination ul {
+	margin: 0;
+}
+
+.cf-pagination ul li {
+	display: inline-block;
+	margin: 5px;
+}
+
+.cf-pagination ul li a,
+.cf-pagination ul li span,
+.cf-pagination .next.page-numbers,
+.cf-pagination .prev.page-numbers {
+	background: #2ed87b;
+	padding: 5px 10px;
+	font-size: 16px;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 0;
+}
+
+.cf-pagination ul li a:hover {
+	background: #58e498;
+}
+
+.cf-pagination .current {
+	background: #555;
+}
+
+.cf-pagination .next.page-numbers,
+.cf-pagination .prev.page-numbers {
+	float: none;
+}
+
+.cf-pagination .page-numbers.current {
+	color: #fff;
+}
+
